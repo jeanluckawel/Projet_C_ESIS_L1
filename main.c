@@ -76,7 +76,6 @@ int main (void){
     scanf("%d",&choix);
     switch (choix) {
         case 1:
-            Acquisition(Personne Annuaire[TAILLE]);
             printf("bonjour");
             break;
     }
