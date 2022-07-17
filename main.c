@@ -40,7 +40,7 @@ void Affiche(Personne *Annuaire){
 void RechercheTel(Personne Annuaire[]){
     char nomPers[30];
     printf("taper le nom");
-    scanf("%s",nom);
+    scanf("%s",nomPers);
     int i;
     for (i = 0; i < 7; i++) {
         if (strcmp(Annuaire[i].nomPersonne,nom))
