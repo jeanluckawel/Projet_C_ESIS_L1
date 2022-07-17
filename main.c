@@ -70,14 +70,28 @@ void RechercheNom(Personne Annuaire[]){
 
 int main (void){
     Personne Annuaire[TAILLE];
-    printf("##########  Menu Principal  ##########\n1.Ajouter une personne a l'annuaire\n2.fficher le contenu de l'annuaire dans l'ordre alphabétique");
+    printf("##########  Menu Principal  ##########\n"
+           "1.Ajouter une personne a l'annuaire\n"
+           "2.fficher le contenu de l'annuaire dans l'ordre alphabétique");
     int choix;
     printf("Taper votre choix------------:>");
     scanf("%d",&choix);
-    switch (choix) {
-        case 1:
-            printf("bonjour");
-            break;
+    while(1){
+        switch (choix) {
+            case 1:
+                Acquisition(Annuaire);
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                printf("Fin de la partie :)");
+                return 0;
+            default:
+                printf("Mauvaise entree!");
+        }
     }
+
     return 0;
 }
