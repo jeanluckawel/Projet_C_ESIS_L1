@@ -38,7 +38,7 @@ void Affiche(Personne *Annuaire){
     printf("%s NOM : %s TEL\n", Annuaire[i].nomPersonne, Annuaire[i].telPersonne);
 }
 void RechercheTel(Personne Annuaire[]){
-    char nom[30];
+    char nomPers[30];
     printf("taper le nom");
     scanf("%s",nom);
     int i;
