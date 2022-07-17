@@ -43,7 +43,7 @@ void RechercheTel(Personne Annuaire[]){
     scanf("%s",nomPers);
     int i;
     for (i = 0; i < 7; i++) {
-        if (strcmp(Annuaire[i].nomPersonne,nom))
+        if (strcmp(Annuaire[i].nomPersonne,nomPers))
             printf("Voici votre : numero %s", Annuaire->telPersonne);
     }
 }
