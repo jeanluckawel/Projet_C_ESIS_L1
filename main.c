@@ -57,7 +57,7 @@ void RechercheTel(Personne Annuaire[], const int *nombre_personne){
             printf("Voici votre : numero %s", Annuaire[i].telPersonne);
     }
 }
-//rechercheNom
+//fonction rechercheNom
 
 void RechercheNom(Personne Annuaire[],const int *nombre_personne){
     char tel[10];
