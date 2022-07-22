@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct Personne{
+typedef struct Personne {
     char nomPersonne[31];
     char telPersonne[11];
 }Personne;
