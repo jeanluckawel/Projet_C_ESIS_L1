@@ -152,7 +152,7 @@ int main (void){
                 RechercheNom(Annuaire,&nombre_personne);
                 break;
             case 6:
-                printf("Fin de la partie :)");
+                printf("Fin du programme :)");
                 Programme = 0 ;
                 break;
             default:
