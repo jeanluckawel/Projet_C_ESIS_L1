@@ -86,7 +86,7 @@ void supprimer(Personne *rep, const int *taille, char *nom)
 {
     int i,j;
     Personne t={"",0};
-    printf("taper le nom a supprimer");
+    printf("Entrer le nom a supprimer");
     scanf("%s",nom);
     for ( i = 0; i < *taille; i++)
     {
