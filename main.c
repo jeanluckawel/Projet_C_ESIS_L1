@@ -79,7 +79,7 @@ void RechercheNom(Personne Annuaire[],const int *nombre_personne){
     }
 }
 
-//Efface
+//fonction Efface
 
 
 void supprimer(Personne *rep, const int *taille, char *nom)
