@@ -31,7 +31,7 @@ void Ajoute(Personne Annuaire[], char *nom, char *numero , int *nombre_personne)
         //printf("Nom: %s Num: %s \n", Annuaire[*nombre_personne].nomPersonne, Annuaire[*nombre_personne].telPersonne );
     }
     else
-        printf("Ajoute impossible ! \n");
+        printf("Ajoute impossible !!\n");
 }
 
 // Fonction Affiche
