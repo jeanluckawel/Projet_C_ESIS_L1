@@ -62,7 +62,7 @@ void RechercheTel(Personne Annuaire[], const int *nombre_personne){
 void RechercheNom(Personne Annuaire[],const int *nombre_personne){
     char tel[10];
 
-    printf("taper votre numeros");
+    printf("Entrer votre numeros");
     scanf("%s", tel);
 
     int i, pasDeNum=0;
