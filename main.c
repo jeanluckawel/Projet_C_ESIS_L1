@@ -116,7 +116,7 @@ int main (void){
         printf("\n##########  Menu Principal  ##########\n1.Ajouter l'Annuaire \n "
                "2.Afficher une personne\n "
                "3.supprimer une personne\n "
-               "4.Consulter le numero de telephone\n "
+               "4.rechercher un numero de telephone\n "
                "5.trouver a qui appartient un certain numero\n "
                "6. sortir du programme\n");
 
