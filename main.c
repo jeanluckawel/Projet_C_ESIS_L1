@@ -40,7 +40,7 @@ void Affiche(Personne *Annuaire, const int *nombre_personne){
     for(int i = 0; i < *nombre_personne; i++) {
 
         if(strlen(Annuaire[i].nomPersonne) > 0)
-            printf("NOM :%s  TEL: %s\n", Annuaire[i].nomPersonne, Annuaire[i].telPersonne);
+            printf("NOM :%s  TELEPHONE: %s\n", Annuaire[i].nomPersonne, Annuaire[i].telPersonne);
         }
     }
 
