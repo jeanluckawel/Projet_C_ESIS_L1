@@ -49,7 +49,7 @@ void RechercheTel(Personne Annuaire[], const int *nombre_personne){
     char nomPers[31];
     int i;
 
-    printf("taper le nom    : ");
+    printf("Entrer le nom    : ");
     scanf("%s",nomPers);
     for (i = 0; i < *nombre_personne; i++)
     {
