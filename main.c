@@ -75,7 +75,7 @@ void RechercheNom(Personne Annuaire[],const int *nombre_personne){
     }
 
     if (pasDeNum == 0){
-        printf(" pas ce numéro dans l'annuaire!");
+        printf("on'a pas ce numéro dans l'annuaire!");
     }
 }
 
