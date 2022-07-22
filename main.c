@@ -122,7 +122,7 @@ int main (void){
 
         printf("Taper votre choix   :");
         scanf("%d",&choix);
-
+// appel fonction
         switch (choix) {
             case 1:
                 printf("\n#######[IDENTIFIANT]#######\n");
